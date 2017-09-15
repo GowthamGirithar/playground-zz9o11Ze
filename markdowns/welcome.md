@@ -16,17 +16,7 @@ Nearest neighbor will fix the above problem in a very efficient manner. It’s n
 
 We have a customer data below to predict the output for the unknown data. In this case, we are going to find the recommendations for the customer with the input data age and income. The goal is to find what are all recommendations, we can give for the customer who is of 58 year and with monthly salary as 51k.
 
-Customer       Age      Income     Purchased Product
-
-1               25        46k           Book
-
-2               39        100k          TV
-
-3               35        38k           DVD
-
-4               69        150k          Car Cover
-
-5               58         51k            ???
+ ![Concept Diagram](Capture.PNG)     
 
 
 
