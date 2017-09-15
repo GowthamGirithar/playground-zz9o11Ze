@@ -43,9 +43,9 @@ Eager Learning is opposite to Lazy Learning, in which the system tries to constr
 
 
 
-# demo
+# Sample Example
 
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
+@[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/gg/ml/KNNDemo.java"], "command": "com.gg.ml.KNNDemoTest#test"})
 
 
 # Code Explanation
