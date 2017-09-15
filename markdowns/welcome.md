@@ -16,7 +16,7 @@ Nearest neighbour will fix the above problems in a very efficicent manner.It's n
 
 We have an customer data below to predict the output for the unknown data. In this case, we are going to find the recommendations for the customer with the input data age and income. The ultimate goal is to find what are all recommendations we can give for the customer who is of 58 year ond with monthly salary as 51k.
 
-## Customer     Age     Income     Purchased Product
+Customer       Age      Income     Purchased Product
 
 1               25        46k           Book
 
@@ -26,7 +26,7 @@ We have an customer data below to predict the output for the unknown data. In th
 
 4               69        150k          Car Cover
 
-5                58       51k             ???
+5               58         51k             ???
 
 
 
@@ -37,8 +37,9 @@ By default the k value is 1, we can pass the value of k while creating the insta
 
 # Lazy Learning and Eager Learning
 
+K-nearest neighbors is a lazy learning algorithm. KNN is a typical example of a lazy learner. It is called lazy not because of its apparent simplicity, but because it doesn't learn a discriminative function from the training data but memorizes the training dataset instead.
 
-
+Eager Learning is opposite to Lazy Learning, in which the system tries to construct a general, input-independent target function during training of the system,where generalization beyond the training data is delayed until a query is made to the system.The last 2 articles we have seen is of eager learning type.
 
 
 
