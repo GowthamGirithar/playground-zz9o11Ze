@@ -1,20 +1,20 @@
 # Machine Learning with Java - Part 3 (k-Nearest Neighbor)
 
-In my previous articles, we have discussed about the linear and logistic regressions. This article focuses on the k nearest neighbor algorithm usage with java.
+In my previous articles, we have discussed about the [linear](https://tech.io/playgrounds/3771/machine-learning-with-java---part-1-linear-regression) and [logistic](https://tech.io/playgrounds/34a7ecd0a4487577f516d92548af66891284/machine-learning-with-java---part-2-logistic-regression) regressions. This article focuses on the k nearest neighbor algorithm with java.
 
 # Nearest Neighbor
 
-Nearest Neighbor is also called as Instance-based Learning or Collaborative Filtering. It is a useful data mining technique which allow us to use our past data with known output values to predict an output value for the new incoming data. 
+Nearest Neighbor is also called as Instance-based Learning or Collaborative Filtering. It is a useful data mining technique, which allow us to use our past data with known output values to predict an output value for the new incoming data. 
 
 # Difference with Regression and Classification
 
-Let us consider the company Flipkart and the common that the customer who purchased the product X also purchased the product Y. If we use classification algorithm to classify this scenario, we will end up in infinite no of branches and nodes. The tree will be too big and accuracy also we cannot say. Even if we have single branch, we will end up in only 3 products. But Flipkart will show us 10-12 products in recommendation section.
+Let us consider Flipkart and the scenario that "the customer who purchased the product X also purchased the product Y". If we use classification algorithm for data mining , we will end up in infinite no of branches and nodes. The tree will be too big and also we cannot determine the accuracy too. Even if we have single branch, we will end up in only 3 products. But Flipkart will show us 10-12 products in recommendation section.
 
-Nearest neighbor will fix the above problems in a very efficient manner. It’s not limited to any number of comparisons. It's as scalable for a 10-customer database as it is for a 10 million-customer database, and we can define the number of results we want to find. It will be the most useful for anyone reading this who has an e-commerce store.
+Nearest neighbor will fix the above problem in a very efficient manner. It’s not limited to any number of comparisons. It's as scalable for a 10-customer database as it is for a 10 million-customer database, and we can define the number of results that we wants to find. It will be the most useful for anyone reading this who has an e-commerce store.
 
 # Concept with Nearest Neighbor
 
-We have a customer data below to predict the output for the unknown data. In this case, we are going to find the recommendations for the customer with the input data age and income. The goal is to find what are all recommendations we can give for the customer who is of 58 year and with monthly salary as 51k.
+We have a customer data below to predict the output for the unknown data. In this case, we are going to find the recommendations for the customer with the input data age and income. The goal is to find what are all recommendations, we can give for the customer who is of 58 year and with monthly salary as 51k.
 
 Customer       Age      Income     Purchased Product
 
@@ -50,7 +50,7 @@ Eager Learning is opposite to Lazy Learning, in which the system tries to constr
 
 # Code Explanation
 
-In code, we can pass the K value while creating the IBk instance. The IBk instance has an argument of type int. If we pass 1, it will calculate to fine 1 nearest neighbor and if it is 2, it will try to find 2 nearest neighbor and so on.
+In code, we can pass the K value while creating the IBk instance. The IBk instance has an argument of type int. If we pass 1, it will calculate to find 1 nearest neighbor and if it is 2, it will try to find 2 nearest neighbor and so on.
 
 If we don’t pass any argument and calling the default constructor will work for 1 nearest neighbor.
 
