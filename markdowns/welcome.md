@@ -1,4 +1,4 @@
-# Machine Learning with Java - Part 3 (k-Nearest Neighbour)!
+# Machine Learning with Java - Part 3 (k-Nearest Neighbour)
 
 In my previuos articles, we have discussed about the linear and logistic regressions.This article focuses on the k nearest neighbour algorithm usage with java.
 
@@ -50,6 +50,10 @@ Eager Learning is opposite to Lazy Learning, in which the system tries to constr
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/java-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
 # Code Explanation
+
+In code, we can pass the K value while creating the IBk instance. The IBk instance has an arguenment of type int.If we pass 1, it will calculate to fine 1 nearest neighbour and if it is 2, it will try to find 2 nearest enighbour and so on.
+
+If we dont pass any arguement and calling the dafault constructor will work for 1 nearest neighbour.
 
 
 # Challenges with this model 
