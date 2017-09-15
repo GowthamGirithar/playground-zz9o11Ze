@@ -56,7 +56,7 @@ In code, we can pass the K value while creating the IBk instance. The IBk instan
 If we dont pass any arguement and calling the dafault constructor will work for 1 nearest neighbour.
 
 
-# Challenges with this model 
+# Challenges with Nearest Neighbour model 
 
 The power of Nearest Neighbor will be efficient with large amount of data like flipkart with 10 billion customers, since they are likely many potential customers in their database with similar habbits like the predicting customer.
 
