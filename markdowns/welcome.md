@@ -49,5 +49,17 @@ Eager Learning is opposite to Lazy Learning, in which the system tries to constr
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/java-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
+# Code Explanation
+
+
 # Challenges with this model 
+
+The power of Nearest Neighbor will be efficient with large amount of data like flipkart with 10 billion customers, since they are likely many potential customers in their database with similar habbits like the predicting customer.
+
+The model breaks down quickly and become inaccurate when we have only few data points for the compariosion.The product recommendations will not be accurate in this case.
+
+The one more challenge is , In Flipcart 10 million users, each customer must be calculated against the other 10 million customerto find the nearest neighbour.First, if our business has 10 million customers, that's not technically a problem. Second, these types of computations are ideal for the cloud in that they can offloaded to dozens of computers to be run simultaneously, with a final comparison done at the end. (Map Reduce) Third, in practice, it wouldn't be necessary to compare every customer in Flipkart's database to myself if I'm only purchasing a book. The assumption can be made that I can be compared to only other bookbuyers to find the best match, narrowing the potential neighbors to a fraction of the entire database.
+
+Note: The data used here is just for an example, it is not a real ones. 
+The example demo also to just showcase how to use the algorithm.
 
