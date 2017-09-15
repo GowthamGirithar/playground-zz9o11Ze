@@ -14,6 +14,23 @@ Nearest neighbour will fix the above problems in a very efficicent manner.It's n
 
 # Concept with Nearest Neighbour
 
+We have an customer data below to predict the output for the unknown data. In this case, we are going to find the recommendations for the customer with the input data age and income. The ultimate goal is to find what are all recommendations we can give for the customer who is of 58 year ond with monthly salary as 51k.
+
+Customer     Age     Income     Purchased Product
+1            25       46k       Book
+2            39       100k      TV
+3            35       38k       DVD
+4            69       150k      Car Cover
+5            58       51k       ???
+
+We have to calculate the distance first and then based on the k value, we can give them nearest k neighbours.
+The formula will be SQRT (( ((input income age - Age)/(highest age-lowest age))^2) + ((input income data - Income)/(highest income -lowest income ))^2)
+
+By default the k value is 1, we can pass the value of k while creating the instance. If the value of k is 1, it will display 1 product (1 nearest neighbour) and if the value of k is 2 , it will displays the 2 products.Using the above example, if we want to know the two most likely products to be purchased by Customer No. 5, we may conclude that they are books and a DVD based on the formula.
+
+# Lazy Learning 
+
+
 
 
 # demo
