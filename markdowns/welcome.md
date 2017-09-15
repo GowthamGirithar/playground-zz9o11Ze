@@ -1,11 +1,22 @@
-# Welcome!
+# Machine Learning with Java - Part 3 (k-Nearest Neighbour)!
 
-This Java template lets you get started quickly with a simple working example using Maven and JUnit. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
+In my previuos articles, we have discussed about the linear and logistic regressions.This article focuses on the k nearest neighbour algorithm usage with java.
+
+# Nearest Neighbour
+
+Nearest Neighbour is also called as Instance-based Learning or Collaborative Filtering.It is a useful data mining technique which allow us to use our past data with known output values to predict an output value for the new incoming data. 
+
+# Difference with Regression and Classification
+
+Let us consider the company Flipkart and the common that the customer who purchased the product X also purchased the product Y.If we use classification algorithm to classify this scenario, we will end up in infinite no of branches and nodes.The tree will be too big and accuracy also we cannot say.Even if we have single branch, we will end up in only 3 products. But flipkart will show us 10-12 products in recommendation section.
+
+Nearest neighbour will fix the above problems in a very efficicent manner.It's not limited to any number of comparisons. It's as scalable for a 10-customer database as it is for a 10 million-customer database, and we can define the number of results we want to find. It will be the most useful for anyone reading this who has an e-commerce store.
+
+# Concept with Nearest Neighbour
 
 
-The source code is on [GitHub](https://github.com/TechDotIO/java-template), please feel free to come up with proposals to improve it.
 
-# Hands-on Demo
+# demo
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
 
